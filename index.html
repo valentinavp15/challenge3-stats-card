@@ -5,25 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css"> 
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Get insights that help your business grow.
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+  <main class="main-container">
+    <div class="text-container">
+      <p class="title">Get <span class="title-span">insights</span> that help your business grow.</p>
+      <p class="main-text"> Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+      <div class="stats-container">
+        <p class="stat-1">10k+<span class="span-stat1">companies</span></p>
+        <p class="stat-2">314<span class="span-stat2">templates</span></p>
+        <p class="stat-3">12m+<span class="span-stat3">queries</span></p>
+      </div>
+    </div>  
+    <img src="./images/image-header-desktop.jpg" alt="">
 
-  10k+ companies
-  314 templates
-  12m+ queries
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
